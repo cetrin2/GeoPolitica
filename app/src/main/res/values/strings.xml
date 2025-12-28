@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кадастр</string>
+
+    <!-- Login/Register -->
+    <string name="login">Вход</string>
+    <string name="register">Регистрация</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="full_name">Полное имя</string>
+    <string name="phone">Телефон</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="no_account">Нет аккаунта? Зарегистрироваться</string>
+    <string name="have_account">Уже есть аккаунт? Войти</string>
+
+    <!-- Navigation -->
+    <string name="map">Карта</string>
+    <string name="search">Поиск</string>
+    <string name="orders">Заказы</string>
+    <string name="account">Профиль</string>
+
+    <!-- Map -->
+    <string name="my_location">Моё местоположение</string>
+    <string name="map_layers">Слои карты</string>
+    <string name="satellite">Спутник</string>
+    <string name="terrain">Рельеф</string>
+    <string name="hybrid">Гибрид</string>
+
+    <!-- Search -->
+    <string name="search_plot">Поиск участка</string>
+    <string name="cadastral_number">Кадастровый номер</string>
+    <string name="enter_cadastral">Введите кадастровый номер</string>
+    <string name="find">Найти</string>
+    <string name="search_result">Результат поиска</string>
+    <string name="show_on_map">Показать на карте</string>
+    <string name="area">Площадь</string>
+    <string name="category">Категория</string>
+    <string name="status">Статус</string>
+    <string name="address">Адрес</string>
+
+    <!-- Orders -->
+    <string name="my_orders">Мои заказы</string>
+    <string name="new_order">Новый заказ</string>
+    <string name="no_orders">Нет активных заказов</string>
+    <string name="order_number">Заказ #%s</string>
+    <string name="order_status_pending">В ожидании</string>
+    <string name="order_status_processing">В работе</string>
+    <string name="order_status_completed">Завершён</string>
+    <string name="order_status_cancelled">Отменён</string>
+
+    <!-- Account -->
+    <string name="profile">Профиль</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="help_support">Помощь и поддержка</string>
+    <string name="about_app">О приложении</string>
+    <string name="logout">Выйти</string>
+    <string name="logout_confirmation">Вы уверены, что хотите выйти из аккаунта?</string>
+
+    <!-- Errors -->
+    <string name="error_empty_email">Введите email</string>
+    <string name="error_invalid_email">Неверный формат email</string>
+    <string name="error_empty_password">Введите пароль</string>
+    <string name="error_short_password">Пароль должен содержать минимум 6 символов</string>
+    <string name="error_passwords_not_match">Пароли не совпадают</string>
+    <string name="error_empty_name">Введите имя</string>
+    <string name="error_login_failed">Ошибка входа</string>
+    <string name="error_register_failed">Ошибка регистрации</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+
+    <!-- Messages -->
+    <string name="success_login">Вход выполнен успешно</string>
+    <string name="success_register">Регистрация выполнена успешно</string>
+    <string name="loading">Загрузка…</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="close">Закрыть</string>
+</resources>
