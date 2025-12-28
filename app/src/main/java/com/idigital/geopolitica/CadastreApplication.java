@@ -19,10 +19,10 @@ public class CadastreApplication extends Application {
 
         instance = this;
 
-        // Initialize SecurePreferences
+        // Инициаизация безопасности
         SecurePreferences.getInstance(this);
 
-        // Initialize NetworkModule
+        // Инициализация сетевого модуля
         NetworkModule.getRetrofit(this);
     }
 
@@ -33,6 +33,6 @@ public class CadastreApplication extends Application {
     @Override
     public void onTerminate() {
         super.onTerminate();
-        // Cleanup resources if needed
     }
+
 }
