@@ -15,7 +15,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class NetworkModule {
 
-    private static final String BASE_URL = "https://api.cadastre.example.com/";
+    private static final String BASE_URL = "https://test/";
     private static Retrofit retrofit;
 
     public static Retrofit getRetrofit(Context context) {
@@ -64,4 +64,5 @@ public class NetworkModule {
     public static ApiService getApiService(Context context) {
         return getRetrofit(context).create(ApiService.class);
     }
+
 }
