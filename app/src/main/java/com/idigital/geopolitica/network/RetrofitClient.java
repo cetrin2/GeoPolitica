@@ -12,7 +12,7 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
 public class RetrofitClient {
-    private static final String BASE_URL = "https://api.cadastre.example.com/";
+    private static final String BASE_URL = "https://test/";
     private static Retrofit retrofit;
 
     public static Retrofit getClient() {
@@ -39,4 +39,5 @@ public class RetrofitClient {
     public static ApiService getApiService() {
         return getClient().create(ApiService.class);
     }
+
 }
