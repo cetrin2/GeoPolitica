@@ -17,7 +17,7 @@ import retrofit2.http.Query;
 
 public interface ApiService {
 
-    // Authentication
+    // Авторизация
     @POST("auth/login")
     Call<LoginResponse> login(@Body LoginRequest request);
 
@@ -27,14 +27,14 @@ public interface ApiService {
     @POST("auth/logout")
     Call<Void> logout(@Header("Authorization") String token);
 
-    // Cadastre Objects
+    // Кадастровый объект
     @GET("cadastre/search")
     Call<CadastreObject> searchByCadastralNumber(
             @Header("Authorization") String token,
             @Query("number") String cadastralNumber
     );
 
-    // Cadastre Parcel Search (новый метод)
+    // (новый метод)
     @GET("cadastre/parcel/search")
     Call<CadastreParcel> searchCadastreParcel(
             @Header("Authorization") String token,
@@ -49,7 +49,7 @@ public interface ApiService {
             @Query("radius") int radius
     );
 
-    // Orders
+    // Заказы
     @GET("orders")
     Call<List<Order>> getOrders(@Header("Authorization") String token);
 
@@ -146,4 +146,5 @@ public interface ApiService {
         public void setToken(String token) { this.token = token; }
         public void setUser(User user) { this.user = user; }
     }
+
 }
